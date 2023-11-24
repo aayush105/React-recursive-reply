@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+/* Styling for comments and replies */
+.comment {
+  margin-left: 0; /* Initial margin for comments */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.reply {
+  margin-left: 20px; /* Indentation for replies */
+}
+
+/* Button styling */
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
